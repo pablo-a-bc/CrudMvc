@@ -1,0 +1,28 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Alumnos mantenerdor</title>
+</head>
+<body>
+    <div><h2>Bienvenido</h2></div>
+    <div><h2>Administrador de Alumnos</h2></div>
+    <div>
+        @Html.ActionLink("Crear", "Create")
+    </div>
+    <div>
+        @Html.ActionLink("Buscar dato", "Buscar")
+    </div>
+    <div>
+        @Html.ActionLink("Listado de ingresados ", "Mostrar")
+    </div>
+    <p>Primero debe ingresar registros , se puede buscar por rut y además desde la busqueda puede eliminar y editarlos</p>
+
+</body>
+</html>
